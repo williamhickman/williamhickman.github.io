@@ -9,7 +9,7 @@ body {
   text-align:center;
 }
 
-#mainpage_menu {
+.mainpage_menu {
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -21,11 +21,11 @@ body {
     border-bottom:1px solid black;
 }
 
-#mainpage_menu li {
+.mainpage_menu li {
   display:inline;
 }
 
-#mainpage_menu li a {
+.mainpage_menu li a {
  text-align:center;
  text-decoration: none;
  color:black;
@@ -34,7 +34,7 @@ body {
  font-size:1.5em;
 }
 
-#mainpage_menu li a:hover {
+.mainpage_menu li a:hover {
   background-color: grey;
   border-radius:10px;
   padding:5px;
