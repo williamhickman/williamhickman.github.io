@@ -1,8 +1,10 @@
 body {
   background-color: rgb(182,205,228);
-  font-family: helvetica, sans-serif;
+  font-family: Lato, helvetica, sans-serif;
   font-size:12px;
 }
+
+
 
 #mainpage_name {
   font-size:4em;
