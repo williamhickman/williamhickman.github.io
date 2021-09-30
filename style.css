@@ -9,7 +9,7 @@ body {
   text-align:center;
 }
 
-.mainpage_menu {
+#mainpage_menu {
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -21,11 +21,11 @@ body {
     border-bottom:1px solid black;
 }
 
-.mainpage_menu li {
+#mainpage_menu li {
   display:inline;
 }
 
-.mainpage_menu li a {
+#mainpage_menu li a {
  text-align:center;
  text-decoration: none;
  color:black;
@@ -34,7 +34,162 @@ body {
  font-size:1.5em;
 }
 
-.mainpage_menu li a:hover {
+#mainpage_menu li a:hover {
+  background-color: grey;
+  border-radius:10px;
+  padding:5px;
+
+}
+#aboutme_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    background-color: rgb(182,205,228);
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+#aboutme_menu li {
+  display:inline;
+}
+
+#aboutme_menu li a {
+ text-align:center;
+ text-decoration: none;
+ color:black;
+ margin-left:10px;
+ margin-right:10px;
+ font-size:1.5em;
+}
+
+#aboutme_menu li a:hover {
+  background-color: grey;
+  border-radius:10px;
+  padding:5px;
+
+}
+#contactme_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    background-color: rgb(182,205,228);
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+#contactme_menu li {
+  display:inline;
+}
+
+#contactme_menu li a {
+ text-align:center;
+ text-decoration: none;
+ color:black;
+ margin-left:10px;
+ margin-right:10px;
+ font-size:1.5em;
+}
+
+#contactme_menu li a:hover {
+  background-color: grey;
+  border-radius:10px;
+  padding:5px;
+
+}
+#cv_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    background-color: rgb(182,205,228);
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+#cv_menu li {
+  display:inline;
+}
+
+#cv_menu li a {
+ text-align:center;
+ text-decoration: none;
+ color:black;
+ margin-left:10px;
+ margin-right:10px;
+ font-size:1.5em;
+}
+
+#cv_menu li a:hover {
+  background-color: grey;
+  border-radius:10px;
+  padding:5px;
+
+}
+#publications_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    background-color: rgb(182,205,228);
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+#publications_menu li {
+  display:inline;
+}
+
+#publications_menu li a {
+ text-align:center;
+ text-decoration: none;
+ color:black;
+ margin-left:10px;
+ margin-right:10px;
+ font-size:1.5em;
+}
+
+#publications_menu li a:hover {
+  background-color: grey;
+  border-radius:10px;
+  padding:5px;
+
+}
+#researchideas_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    top:0px;
+    background-color: rgb(182,205,228);
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+#researchideas_menu li {
+  display:inline;
+}
+
+#researchideas_menu li a {
+ text-align:center;
+ text-decoration: none;
+ color:black;
+ margin-left:10px;
+ margin-right:10px;
+ font-size:1.5em;
+}
+
+#researchideas_menu li a:hover {
   background-color: grey;
   border-radius:10px;
   padding:5px;
