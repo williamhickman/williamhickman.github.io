@@ -16,29 +16,17 @@
   <li><a href="contactme.html">Contact Me</a></li>
 </ul>
 
-<p class="pageheader">
-  Research Ideas
-</p>
-<h2>Got ideas? Send them my way!</h2>
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="research-ideas.php">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-        </div>
+
+      <div id="newideas">
+        <h2>Got ideas? Send them my way!</h2>
+              <div id="research-ideas-form">
+                      <form action="https://formspree.io/f/xvodyvvp" method="POST">
+                      <input type="hidden" name="_subject" value="New research idea!"/>
+                      <textarea name="message" placeholder="Type your message" required></textarea><br />
+                      <button type="submit">Send</button>
+                  </form>
+              </div>
+          </div>
 
 
 

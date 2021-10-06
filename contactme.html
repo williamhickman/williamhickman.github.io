@@ -21,24 +21,15 @@
 </p><br />
 
 <h2>Want to get in touch with me? Write your message below:</h2>
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="research-ideas.php">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+    <div id="contact">
+            <div id="contact-form">
+                    <form action="https://formspree.io/f/xvodyvvp" method="POST">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <input type="email" name="_replyto" placeholder="Your email" required><br />
+                    <textarea name="message" placeholder="Type your message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
             </div>
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
         </div>
 
 

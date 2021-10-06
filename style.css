@@ -53,3 +53,11 @@ body {
 .myface{
   border-radius:40px;
 }
+#newideas {
+  font-size:1.5em;
+  position:absolute;
+  top:50px;
+}
+#research-ideas-input{
+  height:100px;
+}
