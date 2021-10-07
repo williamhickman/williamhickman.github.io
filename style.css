@@ -63,7 +63,8 @@ body {
   height:100px;
 }
 
-.related-links-formatting{
+.related-links-formatting li{
+  margin: 1em;
 }
 
 .related-links-formatting li a{
