@@ -65,10 +65,12 @@ body {
 
 .related-links-formatting li{
   margin: 1em;
+
 }
 
 .related-links-formatting li a{
   text-decoration: underline;
   color: black;
   margin: 15px;
+  font-size:1.5em;
 }
