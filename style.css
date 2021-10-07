@@ -47,6 +47,7 @@ body {
 }
 
 .pageheader {
+  font-family: Lato, helvetica, sans-serif;
   font-size:4em;
   text-align:center;
 }
