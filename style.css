@@ -48,7 +48,7 @@ body {
 
 .pageheader {
   font-family: Lato, helvetica, sans-serif;
-  font-size:4em;
+  font-size:6vw;
   text-align:center;
 }
 .myface{
@@ -72,5 +72,5 @@ body {
   text-decoration: underline;
   color: black;
   margin: 15px;
-  font-size:1.75em;
+  font-size:3vw;
 }
